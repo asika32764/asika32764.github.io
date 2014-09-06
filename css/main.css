@@ -98,3 +98,10 @@ section .section-head h1 {
   background-color: #222;
   color: #ddd;
 }
+#footer .back a {
+  color: #eee;
+}
+#footer .back a:hover {
+  color: #999;
+  text-decoration: none;
+}
