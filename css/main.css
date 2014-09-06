@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 175%;
 }
 h1,
 h2,
@@ -14,11 +14,15 @@ h5,
 h6 {
   font-family: 'Oswald', sans-serif;
 }
+a {
+  color: #31547e;
+}
 .uk-badge {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   padding: 5px 8px;
   border-radius: 3px;
   background-color: #2BA3D4;
+  font-size: 13px;
 }
 #banner {
   background-color: grey;
@@ -67,8 +71,29 @@ h6 {
   background-color: #fafafa;
 }
 #main-body {
-  padding-top: 120px;
+  padding-top: 70px;
 }
 section .section-head h1 {
   font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 1.5em;
+}
+.work-img {
+  border: 1px solid #ccc;
+}
+.social-buttons {
+  margin-top: 40px;
+}
+.social-buttons a {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.section-body.uk-grid {
+  margin-bottom: 75px;
+}
+#footer {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: #222;
+  color: #ddd;
 }
