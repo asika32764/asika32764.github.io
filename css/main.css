@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Arvo:400,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'LeHei Pro', '微軟正黑體', sans-serif;
   font-size: 16px;
   line-height: 175%;
 }
@@ -12,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', 'LeHei Pro', '微軟正黑體', sans-serif;
 }
 a {
   color: #31547e;
@@ -35,7 +35,7 @@ a {
   width: 100%;
   position: absolute;
   top: 170px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', 'LeHei Pro', '微軟正黑體', sans-serif;
 }
 #banner .site-title h1 {
   font-family: "Arvo", "Helvetica Neue", Helvetica, Arial, sans-serif;
