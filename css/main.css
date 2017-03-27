@@ -21,15 +21,13 @@ a {
   font-family: Helvetica Neue, Helvetica, sans-serif;
   padding: 5px 8px;
   border-radius: 3px;
-  background-color: #2BA3D4;
+  background-color: #2ba3d4;
   font-size: 13px;
 }
 #banner {
-  background-color: grey;
   height: 500px;
   position: relative;
-  background: url(../images/banner-04.jpg) top center no-repeat;
-  background-attachment: fixed;
+  background: grey url(../images/banner-04.jpg) no-repeat fixed top center;
 }
 #banner .site-title {
   width: 100%;
@@ -90,6 +88,9 @@ section .section-head h1 {
 }
 .work-img {
   border: 1px solid #ccc;
+  padding-top: 42.5%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .social-buttons {
   margin-top: 40px;
